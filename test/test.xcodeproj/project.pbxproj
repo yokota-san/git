@@ -22,6 +22,8 @@
 		4EDC5E1B21BAC9EF005761E8 /* DDViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4EDC5E1921BAC9EF005761E8 /* DDViewController.xib */; };
 		4EDC5E1E21BAC9F8005761E8 /* DDDViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EDC5E1C21BAC9F8005761E8 /* DDDViewController.swift */; };
 		4EDC5E1F21BAC9F8005761E8 /* DDDViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4EDC5E1D21BAC9F8005761E8 /* DDDViewController.xib */; };
+		4EDC5E3021BACAA7005761E8 /* AViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EDC5E2E21BACAA7005761E8 /* AViewController.swift */; };
+		4EDC5E3121BACAA7005761E8 /* AViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4EDC5E2F21BACAA7005761E8 /* AViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -63,6 +65,8 @@
 		4EDC5E1921BAC9EF005761E8 /* DDViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DDViewController.xib; sourceTree = "<group>"; };
 		4EDC5E1C21BAC9F8005761E8 /* DDDViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DDDViewController.swift; sourceTree = "<group>"; };
 		4EDC5E1D21BAC9F8005761E8 /* DDDViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DDDViewController.xib; sourceTree = "<group>"; };
+		4EDC5E2E21BACAA7005761E8 /* AViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AViewController.swift; sourceTree = "<group>"; };
+		4EDC5E2F21BACAA7005761E8 /* AViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -153,6 +157,8 @@
 				4EDC5E1921BAC9EF005761E8 /* DDViewController.xib */,
 				4EDC5E1C21BAC9F8005761E8 /* DDDViewController.swift */,
 				4EDC5E1D21BAC9F8005761E8 /* DDDViewController.xib */,
+				4EDC5E2E21BACAA7005761E8 /* AViewController.swift */,
+				4EDC5E2F21BACAA7005761E8 /* AViewController.xib */,
 			);
 			path = develop;
 			sourceTree = "<group>";
@@ -263,6 +269,7 @@
 			files = (
 				4EDC5DDE21BAC33C005761E8 /* LaunchScreen.storyboard in Resources */,
 				4EDC5E1F21BAC9F8005761E8 /* DDDViewController.xib in Resources */,
+				4EDC5E3121BACAA7005761E8 /* AViewController.xib in Resources */,
 				4EDC5DDB21BAC33C005761E8 /* Assets.xcassets in Resources */,
 				4EDC5DD621BAC33A005761E8 /* Main.storyboard in Resources */,
 				4EDC5E1B21BAC9EF005761E8 /* DDViewController.xib in Resources */,
@@ -291,6 +298,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4EDC5E3021BACAA7005761E8 /* AViewController.swift in Sources */,
 				4EDC5E1E21BAC9F8005761E8 /* DDDViewController.swift in Sources */,
 				4EDC5DD321BAC33A005761E8 /* ViewController.swift in Sources */,
 				4EDC5E1621BAC9E2005761E8 /* DViewController.swift in Sources */,
