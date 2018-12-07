@@ -29,6 +29,8 @@
 		4EDC5E2B21BACA76005761E8 /* DDViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EDC5E2421BACA75005761E8 /* DDViewController.swift */; };
 		4EDC5E2C21BACA76005761E8 /* DDDViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4EDC5E2521BACA75005761E8 /* DDDViewController.xib */; };
 		4EDC5E2D21BACA76005761E8 /* DDDViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EDC5E2621BACA75005761E8 /* DDDViewController.swift */; };
+		4EDC5E3421BACB52005761E8 /* MM2ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EDC5E3221BACB52005761E8 /* MM2ViewController.swift */; };
+		4EDC5E3521BACB52005761E8 /* MM2ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4EDC5E3321BACB52005761E8 /* MM2ViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -77,6 +79,8 @@
 		4EDC5E2421BACA75005761E8 /* DDViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DDViewController.swift; sourceTree = "<group>"; };
 		4EDC5E2521BACA75005761E8 /* DDDViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DDDViewController.xib; sourceTree = "<group>"; };
 		4EDC5E2621BACA75005761E8 /* DDDViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DDDViewController.swift; sourceTree = "<group>"; };
+		4EDC5E3221BACB52005761E8 /* MM2ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MM2ViewController.swift; sourceTree = "<group>"; };
+		4EDC5E3321BACB52005761E8 /* MM2ViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MM2ViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -182,6 +186,8 @@
 				4EDC5E0B21BAC952005761E8 /* MCollectionReusableView.swift */,
 				4EDC5E0D21BAC972005761E8 /* MMTLStrctTpe.swift */,
 				4EDC5E0F21BAC986005761E8 /* MNSFetchIndexElementDescription.swift */,
+				4EDC5E3221BACB52005761E8 /* MM2ViewController.swift */,
+				4EDC5E3321BACB52005761E8 /* MM2ViewController.xib */,
 			);
 			path = master;
 			sourceTree = "<group>";
@@ -295,6 +301,7 @@
 				4EDC5E2921BACA76005761E8 /* DDViewController.xib in Resources */,
 				4EDC5DDE21BAC33C005761E8 /* LaunchScreen.storyboard in Resources */,
 				4EDC5DDB21BAC33C005761E8 /* Assets.xcassets in Resources */,
+				4EDC5E3521BACB52005761E8 /* MM2ViewController.xib in Resources */,
 				4EDC5DD621BAC33A005761E8 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -324,6 +331,7 @@
 				4EDC5DD321BAC33A005761E8 /* ViewController.swift in Sources */,
 				4EDC5E2821BACA76005761E8 /* DNSFetchRequestExpression.swift in Sources */,
 				4EDC5E1021BAC986005761E8 /* MNSFetchIndexElementDescription.swift in Sources */,
+				4EDC5E3421BACB52005761E8 /* MM2ViewController.swift in Sources */,
 				4EDC5DD121BAC33A005761E8 /* AppDelegate.swift in Sources */,
 				4EDC5E0621BAC8EE005761E8 /* TableViewController.swift in Sources */,
 				4EDC5E0A21BAC943005761E8 /* MTableViewCell.swift in Sources */,
