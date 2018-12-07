@@ -22,6 +22,13 @@
 		4EDC5E0C21BAC952005761E8 /* MCollectionReusableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EDC5E0B21BAC952005761E8 /* MCollectionReusableView.swift */; };
 		4EDC5E0E21BAC972005761E8 /* MMTLStrctTpe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EDC5E0D21BAC972005761E8 /* MMTLStrctTpe.swift */; };
 		4EDC5E1021BAC986005761E8 /* MNSFetchIndexElementDescription.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EDC5E0F21BAC986005761E8 /* MNSFetchIndexElementDescription.swift */; };
+		4EDC5E2721BACA76005761E8 /* DViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EDC5E2021BACA75005761E8 /* DViewController.swift */; };
+		4EDC5E2821BACA76005761E8 /* DNSFetchRequestExpression.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EDC5E2121BACA75005761E8 /* DNSFetchRequestExpression.swift */; };
+		4EDC5E2921BACA76005761E8 /* DDViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4EDC5E2221BACA75005761E8 /* DDViewController.xib */; };
+		4EDC5E2A21BACA76005761E8 /* DViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4EDC5E2321BACA75005761E8 /* DViewController.xib */; };
+		4EDC5E2B21BACA76005761E8 /* DDViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EDC5E2421BACA75005761E8 /* DDViewController.swift */; };
+		4EDC5E2C21BACA76005761E8 /* DDDViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4EDC5E2521BACA75005761E8 /* DDDViewController.xib */; };
+		4EDC5E2D21BACA76005761E8 /* DDDViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EDC5E2621BACA75005761E8 /* DDDViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -63,6 +70,13 @@
 		4EDC5E0B21BAC952005761E8 /* MCollectionReusableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MCollectionReusableView.swift; sourceTree = "<group>"; };
 		4EDC5E0D21BAC972005761E8 /* MMTLStrctTpe.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MMTLStrctTpe.swift; sourceTree = "<group>"; };
 		4EDC5E0F21BAC986005761E8 /* MNSFetchIndexElementDescription.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MNSFetchIndexElementDescription.swift; sourceTree = "<group>"; };
+		4EDC5E2021BACA75005761E8 /* DViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DViewController.swift; sourceTree = "<group>"; };
+		4EDC5E2121BACA75005761E8 /* DNSFetchRequestExpression.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DNSFetchRequestExpression.swift; sourceTree = "<group>"; };
+		4EDC5E2221BACA75005761E8 /* DDViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DDViewController.xib; sourceTree = "<group>"; };
+		4EDC5E2321BACA75005761E8 /* DViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DViewController.xib; sourceTree = "<group>"; };
+		4EDC5E2421BACA75005761E8 /* DDViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DDViewController.swift; sourceTree = "<group>"; };
+		4EDC5E2521BACA75005761E8 /* DDDViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DDDViewController.xib; sourceTree = "<group>"; };
+		4EDC5E2621BACA75005761E8 /* DDDViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DDDViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -149,6 +163,13 @@
 		4EDC5E0121BAC8B0005761E8 /* develop */ = {
 			isa = PBXGroup;
 			children = (
+				4EDC5E2621BACA75005761E8 /* DDDViewController.swift */,
+				4EDC5E2521BACA75005761E8 /* DDDViewController.xib */,
+				4EDC5E2421BACA75005761E8 /* DDViewController.swift */,
+				4EDC5E2221BACA75005761E8 /* DDViewController.xib */,
+				4EDC5E2121BACA75005761E8 /* DNSFetchRequestExpression.swift */,
+				4EDC5E2021BACA75005761E8 /* DViewController.swift */,
+				4EDC5E2321BACA75005761E8 /* DViewController.xib */,
 			);
 			path = develop;
 			sourceTree = "<group>";
@@ -269,6 +290,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4EDC5E2A21BACA76005761E8 /* DViewController.xib in Resources */,
+				4EDC5E2C21BACA76005761E8 /* DDDViewController.xib in Resources */,
+				4EDC5E2921BACA76005761E8 /* DDViewController.xib in Resources */,
 				4EDC5DDE21BAC33C005761E8 /* LaunchScreen.storyboard in Resources */,
 				4EDC5DDB21BAC33C005761E8 /* Assets.xcassets in Resources */,
 				4EDC5DD621BAC33A005761E8 /* Main.storyboard in Resources */,
@@ -298,12 +322,16 @@
 			files = (
 				4EDC5E0421BAC8D6005761E8 /* AViewController.swift in Sources */,
 				4EDC5DD321BAC33A005761E8 /* ViewController.swift in Sources */,
+				4EDC5E2821BACA76005761E8 /* DNSFetchRequestExpression.swift in Sources */,
 				4EDC5E1021BAC986005761E8 /* MNSFetchIndexElementDescription.swift in Sources */,
 				4EDC5DD121BAC33A005761E8 /* AppDelegate.swift in Sources */,
 				4EDC5E0621BAC8EE005761E8 /* TableViewController.swift in Sources */,
 				4EDC5E0A21BAC943005761E8 /* MTableViewCell.swift in Sources */,
+				4EDC5E2D21BACA76005761E8 /* DDDViewController.swift in Sources */,
 				4EDC5DD921BAC33A005761E8 /* test.xcdatamodeld in Sources */,
+				4EDC5E2721BACA76005761E8 /* DViewController.swift in Sources */,
 				4EDC5E0821BAC930005761E8 /* MTableViewController.swift in Sources */,
+				4EDC5E2B21BACA76005761E8 /* DDViewController.swift in Sources */,
 				4EDC5E0E21BAC972005761E8 /* MMTLStrctTpe.swift in Sources */,
 				4EDC5E0C21BAC952005761E8 /* MCollectionReusableView.swift in Sources */,
 			);
